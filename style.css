@@ -1,0 +1,289 @@
+  /* Home Page */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgba(0, 0, 0, 0.938);
+color: #ffffff;
+}
+
+.topcontiner{
+    height: 580px;
+    background-color: rgb(56, 55, 55);
+    
+}
+
+.logo img{
+    height: 110px;
+    width: 120px;
+}
+.logo{
+    height: 100px;
+    width: 120px;
+}
+
+.menu-bar ul{
+    display: flex;
+    gap: 80px;
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+
+.menu-bar ul li a{
+color: #ffffff;
+font-weight: bold;
+text-decoration: none;
+list-style: none;
+
+
+}
+
+a:hover{
+    background-color: red;
+    border-radius: 15%;
+    color: #fff;
+    
+}
+
+.menu-bar{
+    padding-left: 300px;
+    padding-top: 30px;
+}
+
+
+   
+
+.navbar{
+    display: flex;
+    align-items: center;
+background-color: black;
+}
+
+.bg img{
+
+    height: 480px;
+    width: 100%;
+}
+
+.space
+{
+    height:12px;
+}
+.btn{
+    height: 5vh;
+    width: 700px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.cen{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
+
+
+.btn p a{
+    text-transform:uppercase ;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+}
+
+.e-h{
+    height: fit-content;
+    height: 15px;
+
+}
+
+
+.e-menu{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.e-menu img{
+    width: 200px;
+    height: 200px;
+    
+
+}
+
+
+
+figcaption{
+    font-size: 20px;
+}
+
+
+.m-t img{
+    margin-bottom: -12%;
+    padding-top: 11%;
+}
+
+#m-i img{
+    height: 220px;
+    margin-bottom: -21%;
+
+}
+
+.b-s-i{
+    padding-top: 60px;
+    margin-bottom: -40px;
+}
+
+
+
+
+
+/* Food Page */
+
+
+
+.f-m ul{
+    display: flex;
+    gap: 80px;
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.f-m ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+
+.f-m{
+    padding-left: 350px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.men{
+    margin-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    
+}
+
+.men ul li{
+    padding-top: 8px;
+    font-size: 20px;
+    display:flex;
+}
+
+
+.con h3{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+background-color: red;
+text-align: center;
+align-items: center;
+}
+
+
+
+/* Grocery Page */
+
+#as{
+    padding-bottom: 30px;
+
+}
+
+.g-i ul{
+    display: flex;
+    gap: 50px;
+    color: rgb(252, 248, 248);
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    justify-content: center;
+}
+
+.g-i ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+
+
+
+ /* /* about Page */
+#about {
+    text-align: center;
+}
+  
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .image-wrapper {
+    margin-bottom: 30px;
+  }
+  
+  .image-wrapper img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .text-wrapper {
+    margin-bottom: 25px;
+  }
+  
+  #about h1 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+  }
+  
+  #about p {
+    color: #ffeded;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+
+#center{
+    text-align: center;
+}  
+
+#footer{
+    background-color: black;
+}
